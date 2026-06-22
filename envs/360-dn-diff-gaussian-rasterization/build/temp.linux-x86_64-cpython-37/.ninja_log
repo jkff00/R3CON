@@ -1,0 +1,9 @@
+# ninja log v5
+0	1927	1759499628251806569	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/cuda_rasterizer/forward.o	f8faebfe571de221
+0	2057	1759499628379805964	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/cuda_rasterizer/backward.o	30587224f34f976e
+0	4673	1759499630995793591	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/cuda_rasterizer/rasterizer_impl.o	529673f8c85576be
+1	11604	1759499637919760843	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/ext.o	4b9842c7ddff7fdc
+1	24058	1759499650379701916	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/rasterize_points.o	40aefda9d5c46a87
+24	5397	1761832555466982690	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/cuda_rasterizer/rasterizer_impl.o	529673f8c85576be
+24	12226	1761832562290952086	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/ext.o	4b9842c7ddff7fdc
+24	25148	1761832575218894164	/home/xf/CVPR2026/360-gaussian-splatting/submodules/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-37/rasterize_points.o	40aefda9d5c46a87

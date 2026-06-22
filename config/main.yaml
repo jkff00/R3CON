@@ -1,0 +1,29 @@
+defaults:
+  - planner: random
+  - mapper: incremental
+  - simulator: habitat
+  - scene: replica/office0
+  - gui: gui
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+experiment:
+  output_dir: ./dataset
+  exp_id: train
+  run_id : 0
+  budget: 300 # seconds
+  budget_type: 0 # 0: seconds, 1: views
+  record_interval: 60
+  record_rgbd: true
+  record_global_path: true
+  voxel_size: 0.05
+  
+
+use_gui: true
+debug: false
+

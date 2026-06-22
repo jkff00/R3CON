@@ -1,0 +1,6 @@
+# ninja log v7
+2	2277	1782132438951039928	/home/xf/ECCV——CODE/R-3-RECON/envs/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-39/cuda_rasterizer/forward.o	1dfdc70a7fbbf615
+2	2280	1782132438951039928	/home/xf/ECCV——CODE/R-3-RECON/envs/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-39/cuda_rasterizer/backward.o	6dcdbfa80bbb9ba9
+2	5399	1782132438951039928	/home/xf/ECCV——CODE/R-3-RECON/envs/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-39/cuda_rasterizer/rasterizer_impl.o	116ce6edd512af58
+2	12659	1782132438951039928	/home/xf/ECCV——CODE/R-3-RECON/envs/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-39/ext.o	98097bca57abf57c
+3	31307	1782132438951039928	/home/xf/ECCV——CODE/R-3-RECON/envs/360-dn-diff-gaussian-rasterization/build/temp.linux-x86_64-cpython-39/rasterize_points.o	a482c365451bf537
