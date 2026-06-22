@@ -37,7 +37,7 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https
 Create and activate environment:
 ```
 bash envs/build.sh
-conda activate r3-recon
+conda activate R3CON
 ```
 
 ## Data

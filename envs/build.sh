@@ -7,11 +7,11 @@ CONDA_PATH="$(conda info --base)"
 source "${CONDA_PATH}/etc/profile.d/conda.sh"
 
 # create env
-if ! conda env list | awk '{print $1}' | grep -qx "r3-recon"; then
-    conda create -y -n r3-recon -c conda-forge python=3.9 "cmake<4" ninja
+if ! conda env list | awk '{print $1}' | grep -qx "R3CON"; then
+    conda create -y -n R3CON -c conda-forge python=3.9 "cmake<4" ninja
 fi
 
-conda activate r3-recon
+conda activate R3CON
 
 export PYTHONNOUSERSITE=True
 
@@ -52,7 +52,7 @@ torchaudio==2.1.2+cu118
 triton==2.1.0
 EOF
 
-# install r3-recon package support without changing torch
+# install R3CON package support without changing torch
 cd "${ROOT}"
 
 python -m pip install -r "${ROOT}/envs/requirements.txt" \
