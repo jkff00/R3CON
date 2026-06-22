@@ -23,8 +23,8 @@ We test the following setup on Ubuntu20 with CUDA11.8.
 
 Clone the repo:
 ```
-git clone https://github.com/jkff00/R-3-RECON.git
-cd R-3-RECON
+git clone https://github.com/jkff00/R3CON.git
+cd R3CON
 ```
 
 (optional) For different CUDA versions in your machine, you might need to change the corresponding pytorch version and source in envs/build.sh:
@@ -62,9 +62,9 @@ python main.py planner=PLANNER_TYPE scene=SCENE_NAME
 # python main.py planner=confidence scene=replica/office0 use_gui=true
 
 #The result will save as follow:
-# R-3-RECON/dataset/DATASET/SCENE_NAME/train/PLANNER_TYPE/ {images/...png images.txt time.txt ...}
+# R3CON/dataset/DATASET/SCENE_NAME/train/PLANNER_TYPE/ {images/...png images.txt time.txt ...}
 #example:
-# R-3-RECON/dataset/replica/office0/train/confidence_pano/...
+# R3CON/dataset/replica/office0/train/confidence_pano/...
 ```
 If use_gui is set to true, you should be able to see a GUI running.
 
@@ -88,14 +88,16 @@ python data_generation.py scene=SCENE_NAME
 # python data_generation.py scene=replica/office0
 
 #The result will save as follow:
-# R-3-RECON/dataset/DATASET/SCENE_NAME/test / {images/...png images.txt}
-# R-3-RECON/dataset/DATASET/SCENE_NAME/train/ {cameras.txt, points3D.ply}
+# R3CON/dataset/DATASET/SCENE_NAME/test / {images/...png images.txt}
+# R3CON/dataset/DATASET/SCENE_NAME/train/ {cameras.txt, points3D.ply}
 ```
 
 We also provide a shell script to run all sequences:
 ```
 python run.py --dataset replica
 ```
+
+Then you can use the standard 3D GS pipeline for reconstruction.
 ## Citation
 
 ```bibtex
